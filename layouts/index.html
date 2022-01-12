@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfoglio Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
@@ -189,7 +192,7 @@
 
 
 <!-- where i have worked div -->
-<div class="worked_div put_forward_fixed_div border-2 z-50 border-red-900 ml-10 mr-10 flex justify-center mt-36">
+<div data-aos="fade-left" class="worked_div put_forward_fixed_div border-2 z-50 border-red-900 ml-10 mr-10 flex justify-center mt-36">
     <div class="border-2 border-yellow-900 w-3/5  flex flex-col pl-14">
         <div class=" flex justify-center  items-center">
             <div class="greenish_text_color text-white text-2xl mr-1">02.</div>
@@ -200,17 +203,19 @@
         </div>
         <div class="h-full  grid grid-cols-7 mt-4">
             <div class=" col-span-2 ">
-                <ul class="flex flex-col ">
-                    <li id="tab-1" class="py-4 px-4 border-l-2 active_class  cursor-pointer tab-1 w-full text-sm">Mandarinoadv</li>
-                    <li id="tab-2" class="py-4 px-4 border-l-2  border-gray-400 cursor-pointer tab-2 w-full text-sm">Mandarinoadv</li>
-                    <li id="tab-3" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab-3 w-full text-sm">Mandarinoadv</li>
-                    <li id="tab-4" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab-4 w-full text-sm">Mandarinoadv</li>
+                <ul class="flex flex-col pr-4 ">
+                    <li id="tab-1" class="py-4 px-4 border-l-2 active_class  cursor-pointer tab w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-2" class="py-4 px-4 border-l-2  border-gray-400 cursor-pointer tab w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-3" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-4" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab w-full text-sm">Mandarinoadv</li>
 
                 </ul>
             </div>
-            <div class="border col-span-5 flex flex-col border-green-400">
+
+            <!--  JUNIOR WEB DEVELOPER FOR THE FIRST ONE-->
+            <div id="tabFirstTrigger" class="border col-span-5 flex flex-col border-green-400">
                 <div class="border-2 border-yellow-100">
-                    <h4 class="text-xl greenish_text_color">Junior Web-developer</h4>
+                    <h4 class="text-xl greenish_text_color">Junior First One</h4>
                     <p class="text-base ">June 2021 - Present</p>
                 </div>
                 <div class="border-2 border-yellow-500">
@@ -225,6 +230,61 @@
                 </div>
             </div>
 
+
+             <!--  JUNIOR WEB DEVELOPER FOR THE SECOND  ONE-->
+             <div id="tabSecondTrigger" class="border hidden col-span-5  flex-col border-green-400">
+                <div class="border-2 border-yellow-100">
+                    <h4 class="text-xl greenish_text_color">Junior Second One</h4>
+                    <p class="text-base ">June 2021 - Present</p>
+                </div>
+                <div class="border-2 border-yellow-500">
+                    <ul class="p-0">
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+ <!--  JUNIOR WEB DEVELOPER FOR THE THIRD  ONE-->
+ <div id="tabThirdTrigger" class="border col-span-5 hidden flex-col border-green-400">
+    <div class="border-2 border-yellow-100">
+        <h4 class="text-xl greenish_text_color">Junior Third One</h4>
+        <p class="text-base ">June 2021 - Present</p>
+    </div>
+    <div class="border-2 border-yellow-500">
+        <ul class="p-0">
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            
+
+        </ul>
+    </div>
+</div>
+
+
+
+ <!--  JUNIOR WEB DEVELOPER FOR THE FOURTH ONE-->
+ <div id="tabFourthTrigger" class="border col-span-5 hidden flex-col border-green-400">
+    <div class="border-2 border-yellow-100">
+        <h4 class="text-xl greenish_text_color">Junior Fourth One</h4>
+        <p class="text-base ">June 2021 - Present</p>
+    </div>
+    <div class="border-2 border-yellow-500">
+        <ul class="p-0">
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+            
+
+        </ul>
+    </div>
+</div>
 
         </div>
     </div>

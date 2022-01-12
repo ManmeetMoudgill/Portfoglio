@@ -26,6 +26,13 @@ $(document).ready(function(){
       var tab2=document.getElementById('tab-2');
       var tab3=document.getElementById('tab-3');
       var tab4=document.getElementById('tab-4');
+      
+      //WORKS RELATED SCRIPT HERE 
+      var tab1Trigger=document.getElementById('tabFirstTrigger');
+      var tab2Trigger=document.getElementById('tabSecondTrigger');
+      var tab3Trigger=document.getElementById('tabThirdTrigger');
+      var tab4Trigger=document.getElementById('tabFourthTrigger');
+     
 
       tab1.addEventListener('click',()=>{
           if(tab1.classList.contains('active_class') && (tab1.classList.contains('border-gray-400'))){
@@ -42,6 +49,20 @@ $(document).ready(function(){
           tab2.classList.add('border-gray-400')
           tab3.classList.add('border-gray-400')
           tab4.classList.add('border-gray-400')
+
+          if(tab1Trigger.classList.contains('hidden')){
+              tab1Trigger.classList.remove('hidden')
+              tab1Trigger.classList.add('flex','animate__fadeIn','animate__animated','animate__slower')
+          }
+
+          tab2Trigger.classList.remove('flex')
+          tab2Trigger.classList.add('hidden')
+          tab3Trigger.classList.remove('flex')
+          tab3Trigger.classList.add('hidden')
+          tab4Trigger.classList.remove('flex')
+          tab4Trigger.classList.add('hidden')
+
+          
       })
 
     //   script here for tab2
@@ -59,6 +80,18 @@ $(document).ready(function(){
           tab1.classList.add('border-gray-400')
           tab3.classList.add('border-gray-400')
           tab4.classList.add('border-gray-400')
+
+          if(tab2Trigger.classList.contains('hidden')){
+            tab2Trigger.classList.remove('hidden')
+            tab2Trigger.classList.add('flex','animate__fadeIn','animate__animated','animate__slower')
+        }
+
+        tab1Trigger.classList.remove('flex')
+        tab1Trigger.classList.add('hidden')
+        tab3Trigger.classList.remove('flex')
+        tab3Trigger.classList.add('hidden')
+        tab4Trigger.classList.remove('flex')
+        tab4Trigger.classList.add('hidden')
       })
 //script for tab 3
       tab3.addEventListener('click',()=>{
@@ -76,6 +109,20 @@ $(document).ready(function(){
           tab1.classList.add('border-gray-400')
           tab2.classList.add('border-gray-400')
           tab4.classList.add('border-gray-400')
+
+
+          if(tab3Trigger.classList.contains('hidden')){
+            tab3Trigger.classList.remove('hidden')
+            tab3Trigger.classList.add('flex','animate__fadeIn','animate__animated','animate__slower')
+        }
+
+        tab2Trigger.classList.remove('flex')
+        tab2Trigger.classList.add('hidden')
+        tab1Trigger.classList.remove('flex')
+        tab1Trigger.classList.add('hidden')
+        tab4Trigger.classList.remove('flex')
+        tab4Trigger.classList.add('hidden')
+          
     })
 
 
@@ -96,12 +143,30 @@ $(document).ready(function(){
           tab2.classList.add('border-gray-400')
           tab3.classList.add('border-gray-400')
           tab1.classList.add('border-gray-400')
+
+          if(tab4Trigger.classList.contains('hidden')){
+            tab4Trigger.classList.remove('hidden')
+            tab4Trigger.classList.add('flex','animate__fadeIn','animate__animated','animate__slower')
+        }
+
+        tab2Trigger.classList.remove('flex')
+        tab2Trigger.classList.add('hidden')
+        tab3Trigger.classList.remove('flex')
+        tab3Trigger.classList.add('hidden')
+        tab1Trigger.classList.remove('flex')
+        tab1Trigger.classList.add('hidden')
     })
 
 
      
         
-         
+
+
+
+
+
+        
+
         
 
           

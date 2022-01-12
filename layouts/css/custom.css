@@ -140,6 +140,12 @@ html{
     content: "▹";
     color: var(--green);
 }
+.tab:hover{
+    color: var(--green);
+    background-color: transparent;
+    outline: none;
+    background-color: var(--light-navy);
+}
 
 #put_forward{
     filter: grayscale(100%) contrast(1);
