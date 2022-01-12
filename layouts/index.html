@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoglio Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="./js/jquery.js"></script>
+     
+</head>
+
+<body>
+    <!-- HEADER HERE-->
+    <div id="hidden_by_scollded" class="flex justify-between p-4 pl-10 pr-10">
+        <!-- left side div -->
+        <div class="h-full ">
+            <img class="h-14 rounded-full" src="./img/moudgill.jpg" />
+        </div>
+        <!-- right side div -->
+        <div class=" hidden sm:hidden md:flex lg:flex xl:flex 2xl:flex items-center  justify-end ">
+            <ul class="flex">
+                <li class=" mx-4 animate__animated animate__flash    "><a
+                        class="hover:text-xl cursor-pointer  delay-75 transition-all transform text-white text-sm"><span class="greenish_text_color">01.&nbsp&nbsp</span>ABOUT</a></li>
+                <li class=" mx-4 animate__animated animate__flash    "><a
+                        class=" hover:text-xl cursor-pointer  delay-75 transition-all transform text-white text-sm"><span class="greenish_text_color">02.&nbsp&nbsp</span>ABOUT</a></li>
+                <li class=" mx-4 animate__animated animate__flash   "><a
+                        class="hover:text-xl cursor-pointer  delay-75 transition-all transform text-white text-sm"><span class="greenish_text_color">03.&nbsp&nbsp</span>ABOUT</a></li>
+                <li class=" mx-4  animate__animated animate__flash    "><a
+                        class=" hover:text-xl cursor-pointer  delay-75 transition-all transform text-white text-sm"><span class="greenish_text_color">04.&nbsp&nbsp</span>ABOUT</a></li>
+                <li class=" mx-4 animate__animated   animate__flash  "><a
+                        class= "hover:text-xl cursor-pointer  delay-75 transition-all text-white transformtext-white text-sm"><span class="greenish_text_color">05.&nbsp&nbsp</span>ABOUT</a></li>
+            </ul>
+        </div>
+
+        <!-- SMALL AND MEDIUYM DEVICES -->
+            <div class="flex z-50 items-center sm:flex md:hidden lg:hidden xl:hidden 2xl:hidden">
+                    <div id="toggle_menu" class="toggle_open_menu  relative flex items-center  w-8   h-6">
+                        <div  id="change_design" class="design_line   "></div>
+                    </div>
+                    <div id="close_menu" class="hidden  relative  items-center  w-8   h-6">
+                        <div  id="change_design" class="cross_line   "></div>
+                    </div>
+                   
+            </div>
+
+    </div>
+
+    <!-- SMALL MOBILES AND MEDIUM DEVICES MENU -->
+    <div id="open_menu" class="fixed  top-0 right-0 translate-x-full w-96 h-screen">
+            <nav class="inside_menu_div relative h-full w-full">
+                
+                <ul class="absolute top-14 w-full">
+                    <li class="mt-2 mb-2 pt-2 pb-2">
+                        <a class="">
+                            <div class="flex flex-col  items-center  ">
+                                <h5 class="greenish_text_color">01.</h5>
+                                <h5 class="font-bold">ABOUT</h5>
+                            </div>
+                       </a>
+                    </li>
+                    <li class=" mt-2 mb-2 pt-2 pb-2">
+                        <a class="">
+                            <div class="flex flex-col  items-center  ">
+                                <h5 class="greenish_text_color">01.</h5>
+                                <h5 class="font-bold">ABOUT</h5>
+                            </div>
+                       </a>
+                    </li>
+                    <li class="mt-2 mb-2 pt-2 pb-2">
+                        <a class="">
+                            <div class="flex flex-col  items-center  ">
+                                <h5 class="greenish_text_color">01.</h5>
+                                <h5 class="font-bold">ABOUT</h5>
+                            </div>
+                       </a>
+                    </li>
+                    <li class="mt-2 mb-2 pt-2 pb-2">
+                        <a class="">
+                            <div class="flex flex-col  items-center  ">
+                                <h5 class="greenish_text_color">01.</h5>
+                                <h5 class="font-bold">ABOUT</h5>
+                            </div>
+                       </a>
+                    </li>
+                    <li class="flex justify-center mt-14  mb-2 pt-2 pb-2">
+                        <div clas=" border-blue-900 ">
+                            <button class="btn   h-12 w-48 rounded-md">Resume</button>
+                        </div>
+                        
+                    </li>
+           
+                    
+                </ul>
+
+            </nav>
+    </div>
+
+
+     <!-- INTRODUCTION DIV HERE -->
+     <div class="h-full mb-10  border-2 border-red-500 sm:h-full md:h-full lg:h-screen  xl:h-screen 2xl:h-screen pt-5 sm:pt-5 md:pt-5 lg:pt-14 xl:pt-24  2xl:pt-24  flex flex-col pl-14 pr-10">
+        <div class=" pl-0 sm:pl-0 md:pl-16 lg:pl-24 xl:pl-24 2xl:pl-24 p-2 sm:p-2 md:p-2 lg:p-6 xl:p-8 2xl:p-8">
+            <!-- FIRST INSIDE DIV -->
+            <div class="intro_start_heading mb-6 hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex ">Hi,my name is</div>
+            <!-- SECOND INSIDE DIV -->
+            <div class=" intro_name_heading font-bold  text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl ">Manmeet Moudgill</div>
+            <div class=" intro_explain_heading font-bold mt-2 sm:pt-2 md:pt-4 lg:pt-6 xl:pt-6 2xl:pt-6 text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl ">I build things for the web.</div>
+
+            <!-- THIRD INSIDE DIV -->
+            <div class="  w-full sm:w-full md:w-full lg:w-5/12 xl:w-5/12 2xl:w-5/12 mt-8 mb-8">I’m a software engineer 
+            specializing in building (and occasionally designing) 
+            exceptional digital experiences. 
+            Currently, I’m focused on building accessible, 
+            human-centered products at Upstatement.</div>
+
+
+            <!-- FOURTH INSIDE DIV -->
+            <div clas=" border-blue-900 mt-6">
+                <button class="btn   h-16 w-48 rounded-md">Check out my Resume</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- ABOUT ME CONTAINER -->
+    <div data-aos="fade-up" class="about_div  pl-0 sm:pl-10 md:pl-2 lg:pl-10 xl:pl-10 2xl:pl-10 mr-2 sm:mr-2 md:mr-2 lg:mr-10 xl:mr-10 2xl:mr-10  2xl:ml-10 ml-10 sm:ml-10 md:ml-10 lg:ml-10 xl:ml-10">
+        <div class="pl-0 sm:pl-0 md:pl-0 lg:pl-10 xl:pl-10 2xl:pl-10 flex justify-center pr-2 sm:pr-2 md:pr-2 lg:pr-10 xl:pr-0 2xl:pr-0 ">
+                   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2  w-full sm:w-full md:w-4/5 lg:w-4/5 xl:w-4/5 2xl:w-4/5">
+                       <!-- FIRST COLUMN -->
+                            <div class="">
+                                <div class=" flex justify-center items-center">
+                                    <div class="text-white text-2xl mr-1">01.</div>
+                                    <div class="text-3xl text-white ml-2">About Me</div>
+                                    <div class="flex ml-3  h-full flex-grow cursor-pointer">
+                                        <div class="h-custom hover:translate-x-7 transform transition-all delay-75 w-full bg-gray-400"></div>
+                                    </div>
+                                </div>
+                                <div class=" mt-4 text-base ">
+                                    Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                                </div>
+                                <div class="text-base mt-4">
+                                    Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                                </div>
+                               
+                                <div class=" mt-4">
+                                        <div class="text-base">Here are a few technologies I’ve been working with recently:</div>
+                                        <div class="grid grid-cols-2 mt-3">
+                                            <div class="">
+                                               <div class="started_dotted">JavaScript (ES6+)</div>
+                                               <div class="started_dotted">Wordpress</div>
+                                            </div>
+                                            <div class="">
+                                                <div class="started_dotted">Laravel</div>
+                                                <div class="started_dotted">Vue js</div> 
+                                             </div>
+                                           
+                                        </div>
+            
+                                </div> 
+                            </div>
+
+                       <!-- SECOND COLUMN -->     
+                        <div class=" flex justify-center pt-14 ">
+                            <div class="w-80 h-80 sm:w-60 sm:h-60 md:w-60 md:h-60 lg:w-80 lg:h-80 xl:w-80 xl:h-80 2xl:w-80 2xl:h-80">
+                                <div id="img_box" class="z-50  group hover-group overflow-hidden relative rounded-md border-blue ">
+                                        <img id="put_forward" class=" group-hover:scale-105 group-hover:rotate-2 w-full  transform  cursor-pointer transition-all delay-75" src="./img/moudgill.jpg" />
+                                       
+                                </div>
+
+                            </div>
+                            
+
+                            
+                        </div>
+                   </div>
+        </div>
+
+    </div>
+
+
+<!-- where i have worked div -->
+<div class="worked_div put_forward_fixed_div border-2 z-50 border-red-900 ml-10 mr-10 flex justify-center mt-36">
+    <div class="border-2 border-yellow-900 w-3/5  flex flex-col pl-14">
+        <div class=" flex justify-center  items-center">
+            <div class="greenish_text_color text-white text-2xl mr-1">02.</div>
+            <div class="text-3xl text-white ml-2">Where i've worked</div>
+            <div class="flex ml-3  h-full flex-grow items-center cursor-pointer">
+                <div class="h-custom hover:translate-x-7 transform transition-all delay-75 w-full bg-gray-400"></div>
+            </div>
+        </div>
+        <div class="h-full  grid grid-cols-7 mt-4">
+            <div class=" col-span-2 ">
+                <ul class="flex flex-col ">
+                    <li id="tab-1" class="py-4 px-4 border-l-2 active_class  cursor-pointer tab-1 w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-2" class="py-4 px-4 border-l-2  border-gray-400 cursor-pointer tab-2 w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-3" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab-3 w-full text-sm">Mandarinoadv</li>
+                    <li id="tab-4" class="py-4 px-4 border-l-2 border-gray-400 cursor-pointer tab-4 w-full text-sm">Mandarinoadv</li>
+
+                </ul>
+            </div>
+            <div class="border col-span-5 flex flex-col border-green-400">
+                <div class="border-2 border-yellow-100">
+                    <h4 class="text-xl greenish_text_color">Junior Web-developer</h4>
+                    <p class="text-base ">June 2021 - Present</p>
+                </div>
+                <div class="border-2 border-yellow-500">
+                    <ul class="p-0">
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        <li class="relative list-none pl-8 pb-3 started_dotted_with_padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asdsadsdadiabsncsacasca.</li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- FIXED DIV  -->
+    <div class="h-80 hidden  put_backward_fixed_div sm:hidden md:flex lg:flex xl:flex 2xl:flex  w-full fixed bottom-0  justify-between ">
+        <div class="left_side_div   pl-10 h-full ">
+            <div class=" w-11">
+                <ul class="flex list_logos flex-col">
+                    <li class="mb-7"><a class="logos flex justify-center" href="https://github.com/" aria-label="GitHub"
+                            target="_blank" rel="noreferrer"><svg
+                                class="hover:-translate-y-1 transition-transform  delay-75 transform"
+                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-github">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg></a></li>
+                    <li class="mb-7"><a class="logos flex justify-center" href="https://github.com/" aria-label="GitHub"
+                            target="_blank" rel="noreferrer"><svg
+                                class="hover:-translate-y-1 transition-transform  delay-75 transform"
+                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-instagram">
+                                <title>Instagram</title>
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg></a></li>
+                    <li class="mb-7"><a class="logos flex justify-center" href="https://github.com/" aria-label="GitHub"
+                            target="_blank" rel="noreferrer"><svg
+                                class="hover:-translate-y-1 transition-transform  delay-75 transform"
+                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-twitter">
+                                <title>Twitter</title>
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg></a></li>
+                    <li class="mb-7 last_list_item"><a class="logos flex justify-center" href="https://github.com/"
+                            aria-label="GitHub" target="_blank" rel="noreferrer"><svg
+                                class="hover:-translate-y-1 transition-transform  delay-75 transform"
+                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-linkedin">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="right_side_div  h-full flex pr-10 justify-end ">
+            <div class= w-11">
+                <div class="last_list_item flex flex-col items-center">
+                    <a
+                        class="text-sm  emailAnchor cursor-pointer hover:-translate-y-1 transition-transform  delay-75 transform   text-white">
+                        manmeetmoudgill76@gmail.com</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/index.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
