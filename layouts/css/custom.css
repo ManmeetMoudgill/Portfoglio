@@ -162,3 +162,13 @@ html{
 .put_forward_fixed_div{
     z-index: 1;
 }
+
+.customBox{
+    position: relative;
+    z-index: 999;
+    left: -4.2rem;
+    padding:1rem;
+    text-align: center;
+    width: 400px;
+    background-color: var(--light-navy);
+}
