@@ -11,7 +11,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
     rel="stylesheet"
@@ -295,7 +295,7 @@
 
 
 <!-- PROGETTI-->
-<div class="border-2  justify-center flex border-red-400 ml-10 mr-10">
+<div data-aos="fade-up" class="border-2 mt-36 justify-center flex border-red-400 ml-10 mr-10">
     <div class="w-3/4  flex flex-col ">
 
         <!-- upper div -->
@@ -310,33 +310,73 @@
         </div>
 
 
-        <!-- lower div -->
-        <div class="border-2 mt-4 border-purple-800 grid grid-col-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grdi-cols-3">
-            <div class="border-2 border-red-400 col-span-2">
-                <img src="./images/projectLogo.png"/>
+        <!-- first project  -->
+        <div class=" mt-4 grid grid-col-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grdi-cols-3">
+            <div class="col-span-2 group">
+                <img   class="projects_image  group-hover:rotate-3 w-full  transform  cursor-pointer transition-all delay-75" src="./images/projectLogo.png"/>
             </div>
-            <div class="border-2  col-span-1 pt-8  flex flex-col border-red-400">
-                <div class="border-2 border-yellow-300 text-right text-sm mb-2 greenish_text_color">Featured Projects</div>
-                <div class="border-2 border-purple-300 text-right text-xl text-white">Halcyon Theme</div>
-                <div class="border-2 customBox border-blue-300 mt-5">
+            <div class=" col-span-1 pt-8  flex flex-col ">
+                <div class="text-right text-sm mb-2 greenish_text_color">Featured Projects</div>
+                <div class="text-right text-xl text-white">Halcyon Theme</div>
+                <div class=" customBox  mt-5">
                     A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
                 </div>
-                <div class="border-2 border-red-300  mt-6 flex justify-end">
+                <div class="  mt-6 flex justify-end">
                     <ul class="flex">
-                        <li class="px-2  text-xs text-white">Sublime Text</li>
-                        <li class="px-2  text-xs text-white">VS Code</li>
-                        <li class="px-2  text-xs text-white">Atom</li>
-                        <li class="px-2  text-xs text-white">iTerm2</li>
-                        <li class="px-2  text-xs text-white">Hyper</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Sublime Text</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">VS Code</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Atom</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">iTerm2</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Hyper</li>
 
                     </ul>
                 </div>
-                <div class="border-2 border-green-300"></div>
+                <!-- <div class="border-2 border-green-300"></div> -->
+            </div>
+        </div>
+
+
+
+        
+        <!-- second  div -->
+        <div class=" mt-14 grid grid-col-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grdi-cols-3">
+            <div class=" col-span-1 pt-8  flex flex-col ">
+                <div class="text-left text-sm mb-2 greenish_text_color">Featured Projects</div>
+                <div class="text-left text-xl text-white">Halcyon Theme</div>
+                <div class=" custoBoxLeft  mt-5">
+                    A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
+                </div>
+                <div class="  mt-6 flex justify-start">
+                    <ul class="flex">
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Sublime Text</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">VS Code</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Atom</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">iTerm2</li>
+                        <li class="px-2 hover:-translate-y-2 cursor-pointer transform transition-all delay-100 text-xs text-white">Hyper</li>
+
+                    </ul>
+                </div>
+                <!-- <div class="border-2 border-green-300"></div> -->
+            </div>
+            <div class="col-span-2 group">
+                <img   class="projects_image  group-hover:rotate-3 w-full  transform  cursor-pointer transition-all delay-75" src="./images/projectLogo.png"/>
             </div>
         </div>
     </div>
 </div>
 
+
+
+
+
+<!-- OTHER  PROJECTS CONTAINER -->
+<div class="border-2 flex f items-center flex-col mt-36 border-red-400 h-96 ml-10 mr-10">
+    <div class="border-2 w-3/4 border-purple-900">
+        <div class="border-2 text-center text-white text-2xl border-black">Other Networthy Projects</div>
+        <div class="greenish_text_color text-center text-base  mt-2 border-2 border-black">View the Archive</div>
+    </div>
+    <div class="border-2 w-3/4 border-purple-900">asdasdasdass</div>
+</div>
 
 
     <!-- FIXED DIV  -->
